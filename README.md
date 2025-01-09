@@ -5,12 +5,12 @@ The first step is to install WSL. Open the PowerShell application as administrat
 
 <img src="./images/createusername.png" width="900" height="74.48" />
 
-Your username must start with a lowercase letter and can only contain lowercase letters, dashes (`-`) and underscores (`_`). It can optionally end with a dollar sign (`$`). When entering your password, no dots or asterisks will appear for each character, so make sure you enter it carefully. You are now finished installing WSL.
+Your username must start with a lowercase letter and can only contain lowercase letters, dashes (`-`) and underscores (`_`). It can optionally end with a dollar sign (`$`). Nothing will appear in the terminal while you are entering your password, so make sure you type it carefully.
 
 ## 2. Install Visual Studio Code
-Visual Studio Code is a popular text editor which provides many facilities for development such as syntax highlighting and code completion. Its integration with WSL allows you to develop in a Linux environment on Windows. If you already have VS Code installed and it is in your PATH, then you can skip this step. If you are not sure what PATH is, run the installer again anyway (no need to uninstall VS Code first).
+Visual Studio Code is a popular text editor which provides many facilities for development such as syntax highlighting and code completion. Its integration with WSL allows you to develop on the Windows app and compile and run your software on the Linux side (all within VS Code). If you already have VS Code installed and it is in your PATH, then you can skip this step. If you are not sure what PATH is, run the installer again anyway (no need to uninstall VS Code first).
 
-To install, go to the [VS Code website](https://code.visualstudio.com/Download) and download and run the Windows installer (**not Linux**). When the installer asks you to select additional tasks, select "Add to PATH",[^2] as shown below.
+To install, go to the [VS Code website](https://code.visualstudio.com/Download) and download and run the Windows installer (**not the Linux one**). When the installer asks you to select additional tasks, select "Add to PATH",[^2] as shown below.
 
 <img src="./images/addtopath.png" width="584" height="400" />  
 
